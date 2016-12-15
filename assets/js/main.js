@@ -1,5 +1,23 @@
 
 
+
+//Sortera ut en sträng så att den blir i rätt ordning.
+
+
+
+//document.getElementById('word').innerHTML = reverse;
+
+
+//Räknar ut Arean av en triangel med sidorna
+//funktionen håller två parametrar tal1 (4) och tal2 (6), som sedan räknas ut och returneras i variabeln beräkna
+var beräkna = function (tal1,tal2) {
+ return tal1 * tal2;
+}
+//Placerar informationen i triangle elmentet i DOM.
+document.getElementById("triangle").innerHTML = "Area of the triangle is " + beräkna(4,6);
+
+
+
 //Skriver ut den aktuella sidan. Här behöver jag inte kalla på min funktion,
 //eftersom jag har angett att den ska köra min funktion när knappen trycks ned.
 function utskrift() {

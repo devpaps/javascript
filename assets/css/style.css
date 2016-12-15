@@ -1,13 +1,20 @@
+body {
+  background: #b2afac;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
 .countdown {
   margin: 100px auto 0 auto;
   font-size: 3rem;
-  font-family: sans-serif;
   text-align: center;
 }
 
 .testArea {
   width: 500px;
-  background: #ccc;
+  background: #ffce2b;
   padding: 2rem;
   margin: 2rem auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  border-radius: 3px;
 }
