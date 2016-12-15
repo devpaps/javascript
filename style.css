@@ -1,0 +1,13 @@
+.countdown {
+  margin: 100px auto 0 auto;
+  font-size: 3rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.testArea {
+  width: 500px;
+  background: #ccc;
+  padding: 2rem;
+  margin: 2rem auto;
+}
